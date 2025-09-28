@@ -8,8 +8,14 @@ void IncrementByreference(int& num);
 
 /**
  *    참조자 (Reference) 
- *  -> 포인터보다 좋은??
+ *  -> 포인터보다 좋은?? => 메모리에 새로운 공간을 차지하지 않는다. (주소값이 없음)
  *  -> 변수의 별명 != 변수
+ *  -> const인 pointer, 사용 시 자동으로 역참조를 수행하는 개념
+ *  -> C++에서 매개변수로 매우 자주 사용함. 
+ *  -> L-Value에만 참조 가능함.
+ * 
+ *  -> L-Value (Left Value) : 메모리 주소가 있는 것
+ *  -> R-Value (Right Value) : 메모리 주소가 없는 것
  *  
  *  - 기존 변수에 대한 별칭 (alias)을 제공
  *  - 선언 시 반드시 초기화해야 하며, 이후에는 다른 변수로 변경할 수 없음 -> const pointer

@@ -53,7 +53,6 @@ class player    // player라는 class 선언
         bool IsDead();
 };
 
-
 // account 클래스의 함수 정의 
 bool account::withdraw(double amount) //출금
 {
